@@ -1,0 +1,19 @@
+.home {
+    text-align: center;
+    padding: 100px;
+  }
+  
+  .boton-ingresar {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .boton-ingresar:hover {
+    background-color: #45a049;
+  }
+  
