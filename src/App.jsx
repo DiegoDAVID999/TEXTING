@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import './index.css';
 import Inicio from './componentes/inicio';
 import Pregunta from './componentes/pregunta';
-import Resultado from './componentes/resultado';
+import Resultado from './componentes/Resultado';
 
 function App() {
   const preguntas = [
@@ -56,25 +56,3 @@ function App() {
 export default App;
 
 
-// import React from 'react';
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import './index.css';
-// import NavBar from './componentes/menu/navbar';
-// import Home from './componentes/menu/home';
-// import IntelligenceTest from './componentes/menu/inteligenceText';
-
-// function App() {
-//   return (
-//     <Router>
-//       <div className="App">
-//         <NavBar/>
-//         <Routes>
-//           <Route path="/" element={<Home/>} />
-//           <Route path="/test-de-inteligencia" element={<IntelligenceTest/>} />
-//         </Routes>
-//       </div>
-//     </Router>
-//   );
-// }
-
-// export default App;

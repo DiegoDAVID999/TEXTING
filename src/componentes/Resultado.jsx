@@ -1,22 +1,4 @@
-// import React from 'react'
 
-// const Resultado = ({puntaje}) => {
-//     const obtenerMensaje = () => {
-//         if (puntaje >= 90) return "¡Increíble! Tienes un alto nivel de inteligencia.";
-//         if (puntaje >= 70) return "Buen trabajo, ¡demuestras una gran capacidad!";
-//         return "Sigue practicando, ¡hay mucho potencial!";
-//       };
-    
-//       return (
-//         <div className="resultado">
-//           <h2>Resultado Final</h2>
-//           <p>Puntaje: {puntaje}</p>
-//           <p>{obtenerMensaje()}</p>
-//         </div>
-//       );
-//     }
-
-// export default Resultado
 
 
 import React from 'react';
