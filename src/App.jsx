@@ -42,8 +42,7 @@ function App() {
       </video>
       {!finalizado ? (
         preguntaActual === 0 ? (
-          <Inicio/>
-          // <Inicio iniciar={() => setPreguntaActual(1)}/>
+          <Inicio iniciar={() => setPreguntaActual(1)}/>
         ) : (
           <Pregunta pregunta={preguntas[preguntaActual - 1]} manejarRespuesta={manejarRespuesta}/>
         )
