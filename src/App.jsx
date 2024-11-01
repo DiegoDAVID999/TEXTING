@@ -2,9 +2,9 @@
 import React, { useState } from 'react';
 
 import './index.css';
-import Inicio from './componentes/inicio';
 import Pregunta from './componentes/pregunta';
 import Resultado from './componentes/Resultado';
+import Inicio from './componentes/Inicio';
 
 function App() {
   const preguntas = [
@@ -42,7 +42,8 @@ function App() {
       </video>
       {!finalizado ? (
         preguntaActual === 0 ? (
-          <Inicio iniciar={() => setPreguntaActual(1)}/>
+          <Inicio/>
+          // <Inicio iniciar={() => setPreguntaActual(1)}/>
         ) : (
           <Pregunta pregunta={preguntas[preguntaActual - 1]} manejarRespuesta={manejarRespuesta}/>
         )
